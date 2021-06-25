@@ -1,3 +1,4 @@
 javanese-wikipedia-v1/jvwikidocs.zip filter=lfs diff=lfs merge=lfs -text
 javanese-wikipedia-v2/jvwikidocs.zip filter=lfs diff=lfs merge=lfs -text
 sundanese-wikipedia/suwikidocs.zip filter=lfs diff=lfs merge=lfs -text
+minangkabau-wikipedia/minwikidocs.zip filter=lfs diff=lfs merge=lfs -text
