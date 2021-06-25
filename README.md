@@ -1,6 +1,6 @@
 # NLP Datasets
 
-A collection of various NLP datasets, mainly in Indonesia-related languages.
+A collection of various NLP datasets, mainly Indonesia-related languages.
 
 ---
 
