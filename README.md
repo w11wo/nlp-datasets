@@ -60,7 +60,7 @@ Split (911 MB):
 
 > "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture."
 
-Split\*\*:
+Split^:
 
 - Indonesian (16 GB)
 - Javanese (583 KB)
@@ -69,7 +69,7 @@ Split\*\*:
 
 \*_external resource_
 
-_\*\*deduplicated_
+^_deduplicated_
 
 ---
 
