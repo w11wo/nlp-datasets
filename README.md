@@ -36,6 +36,31 @@ Split (342 MB):
 
 ---
 
+## [Sundanese Wikipedia](https://github.com/w11wo/nlp-datasets/tree/main/sundanese-wikipedia)
+
+> Sundanese Wikipedia documents from Wikidump. Collected on June 2021.
+
+Split (279 MB):
+
+- 68,920 Unsupervised
+
+---
+
+## [OSCAR\*](https://oscar-corpus.com/)
+
+> "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture."
+
+Split:
+
+- Indonesian (16 GB)
+- Javanese (583 KB)
+- Sundanese (141 KB)
+- Minangkabau (310 KB)
+
+\*_external resource_
+
+---
+
 ## [CC-100 Monolingual\*](http://data.statmt.org/cc-100/)
 
 > "This corpus comprises of monolingual data for 100+ languages [...] This was constructed using the urls and paragraph indices provided by the CC-Net repository by processing January-December 2018 Commoncrawl snapshots."
