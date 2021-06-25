@@ -46,6 +46,16 @@ Split (279 MB):
 
 ---
 
+## [Minangkabau Wikipedia](https://github.com/w11wo/nlp-datasets/tree/main/minangkabau-wikipedia)
+
+> Minangkabau Wikipedia documents from Wikidump. Collected on June 2021.
+
+Split (911 MB):
+
+- 229,869 Unsupervised
+
+---
+
 ## [OSCAR\*](https://oscar-corpus.com/)
 
 > "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture."
@@ -93,7 +103,7 @@ Split:
 
 - Wikipedia documents from other regional languages
 
-  - Minangkabau `min`
+  - ~~Minangkabau `min`~~
   - Banyumasan/Basa Banyumasan `map-bms`
   - Acehnese `ace`
   - Gorontalo/Bahasa Hulontalo `gor`
