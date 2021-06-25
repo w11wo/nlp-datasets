@@ -105,7 +105,7 @@ Split:
 
 - Wikipedia documents from other regional languages
 
-  - ~~Minangkabau `min`~~
+  - ~~Minangkabau~~ `min`
   - Banyumasan/Basa Banyumasan `map-bms`
   - Acehnese `ace`
   - Gorontalo/Bahasa Hulontalo `gor`
