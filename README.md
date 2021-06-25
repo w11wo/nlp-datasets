@@ -68,14 +68,14 @@ Split:
 
 - Wikipedia documents from other regional languages
 
-  - Minangkabau (`min`)
-  - Banyumasan/Basa Banyumasan (`map-bms`)
-  - Acehnese (`ace`)
-  - Gorontalo/Bahasa Hulontalo (`gor`)
-  - Balinese (`ban`)
-  - Banjar (`bjn`)
-  - Madurese (`mad`)
-  - Toba Batak Language (`bbc`)
+  - Minangkabau `min`
+  - Banyumasan/Basa Banyumasan `map-bms`
+  - Acehnese `ace`
+  - Gorontalo/Bahasa Hulontalo `gor`
+  - Balinese `ban`
+  - Banjar `bjn`
+  - Madurese `mad`
+  - Toba Batak Language `bbc`
 
 - Online news
   - [Solopos Jagad Jawa](https://www.solopos.com/jagad-jawa) (Javanese)
