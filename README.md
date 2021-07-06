@@ -1,8 +1,27 @@
 # NLP Datasets
 
-A collection of various NLP datasets, mainly Indonesia-related languages.
+A collection of various NLP datasets, mainly Indonesia-related languages. These datasets are split into two: pre-training corpora and fine-tuning datasets.
 
 ---
+
+# Table of Contents
+
+- [Pre-training Corpora](#pre-training-corpora)
+  - [Javanese IMDb](#javanese-imdb)
+  - [Javanese Wikipedia v1](#javanese-wikipedia-v1)
+  - [Javanese Wikipedia v2](#javanese-wikipedia-v2)
+  - [Sundanese Wikipedia](#sundanese-wikipedia)
+  - [Minangkabau Wikipedia](#minangkabau-wikipedia)
+  - [OSCAR](#oscar)
+  - [CC-100 Monolingual](#cc-100-monolingual)
+  - [The C4 Multilingual Dataset](#the-c4-multilingual-dataset)
+- [Fine-tuning Datasets](#fine-tuning-datasets)
+  - [Sundanese Twitter Dataset for Emotion Classification](#sundanese-twitter-dataset-for-emotion-classification)
+- [To Be Added](#tba)
+
+---
+
+# Pre-training Corpora
 
 ## [Javanese IMDb](https://github.com/w11wo/nlp-datasets/tree/main/imdb-javanese)
 
@@ -101,7 +120,22 @@ Split:
 
 ---
 
-## TBA
+# Fine-tuning Datasets
+
+## [Sundanese Twitter Dataset for Emotion Classification\*](https://github.com/virgantara/sundanese-twitter-dataset)
+
+> O. V. Putra, F. M. Wasmanson, T. Harmini, and S. N. Utama, “Sundanese twitter dataset for emotion classification,” virtual, Nov. 2020.
+
+Split (235 KB):
+
+- 2,518 Train
+- 12 Test
+
+\*_external resource_
+
+---
+
+# TBA
 
 - Wikipedia documents from other regional languages
 
