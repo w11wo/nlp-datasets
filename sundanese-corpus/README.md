@@ -11,6 +11,14 @@ Sundanese Corpus tokenized using `BertWordPieceTokenizer`. Sequence maximum leng
 !unzip -q /content/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip
 ```
 
+### Load Model Config & Tokenizer
+
+```python
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained(f"{model_dir}")
+```
+
 ### Load Tokenized Dataset
 
 ```python
