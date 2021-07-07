@@ -1,6 +1,6 @@
 # Sundanese OSCAR, mC4, CC100, Wiki Corpus
 
-Sundanese Corpus tokenized using `BertWordPieceTokenizer`.
+Sundanese Corpus tokenized using `BertWordPieceTokenizer`. Sequence maximum length set to `128`.
 
 ## Usage
 
