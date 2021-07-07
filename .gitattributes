@@ -2,3 +2,5 @@ javanese-wikipedia-v1/jvwikidocs.zip filter=lfs diff=lfs merge=lfs -text
 javanese-wikipedia-v2/jvwikidocs.zip filter=lfs diff=lfs merge=lfs -text
 sundanese-wikipedia/suwikidocs.zip filter=lfs diff=lfs merge=lfs -text
 minangkabau-wikipedia/minwikidocs.zip filter=lfs diff=lfs merge=lfs -text
+*/*.zip filter=lfs diff=lfs merge=lfs -text
+sundanese-corpus/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip filter=lfs diff=lfs merge=lfs -text
