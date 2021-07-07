@@ -4,19 +4,22 @@ Sundanese Corpus tokenized using `BertWordPieceTokenizer`. Sequence maximum leng
 
 ## Usage
 
-### Download & Unzip File
+### Download & Unzip Files
 
 ```
 !wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip
+!wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/tokenizer.json
 !unzip -q /content/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip
 ```
 
-### Load Model Config & Tokenizer
+### Load Tokenizer Model
 
 ```python
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained(f"{model_dir}")
+model_dir = PATH/TO/tokenizer.json
+
+tokenizer = AutoTokenizer.from_pretrained(model_dir)
 ```
 
 ### Load Tokenized Dataset
