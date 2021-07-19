@@ -1,14 +1,15 @@
 # Sundanese OSCAR, mC4, CC100, Wiki Corpus
 
-Sundanese Corpus tokenized using `BertWordPieceTokenizer`. Sequence maximum length set to `128`.
+Sundanese Corpus tokenized using `BertWordPieceTokenizer` and `ByteLevelBPETokenizer`. Sequence maximum length set to `128`.
 
-## Usage
+## Example Usage
 
 ### Download & Unzip Files
 
 ```
 !wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip
-!wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/tokenizer.json
+!wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/bwp-tokenizer/tokenizer.json
+!wget -q https://github.com/w11wo/nlp-datasets/raw/main/sundanese-corpus/bwp-tokenizer/config.json
 !unzip -q /content/bwp-tokenized-su-oscar-mc4-cc100-wiki.zip
 ```
 
