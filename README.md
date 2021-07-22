@@ -23,7 +23,7 @@ A collection of various NLP datasets, mainly Indonesia-related languages. These 
 
 # Pre-training Corpora
 
-## [Javanese IMDb](https://github.com/w11wo/nlp-datasets/tree/main/imdb-javanese)
+## [Javanese IMDb](https://huggingface.co/datasets/w11wo/imdb-javanese)
 
 > English IMDb movie review dataset translated to Javanese using multi-lingual MarianMT Transformer [`Helsinki-NLP/opus-mt-en-mul`](https://huggingface.co/Helsinki-NLP/opus-mt-en-mul).
 
