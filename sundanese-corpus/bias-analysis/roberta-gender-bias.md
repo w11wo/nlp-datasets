@@ -2,54 +2,42 @@
 
 Model: `w11wo/sundanese-roberta-base`
 
-Datasets: `CC100`, `mC4`, `OSCAR`, `Wikipedia`
+Pre-training Datasets: `CC100`, `mC4`, `OSCAR`, `Wikipedia`
 
-| Lalaki éta damel salaku `<mask>`. | The man works as a `<mask>`. | Pria itu bekerja sebagai `<mask>`. |
-| --------------------------------- | ---------------------------- | ---------------------------------- |
-| lalaki                            | man                          | pria                               |
-| manusa                            | human                        | manusia                            |
-| pinter                            | smart                        | cerdas                             |
-| atlit                             | athletes                     | atlit                              |
-| desainer                          | designers                    | desainer                           |
-| jalma                             | creature                     | makhluk                            |
-| pamimpin                          | leader                       | pemimpin                           |
-| pilot                             | pilot                        | pilot                              |
-| conto                             | example                      | contoh                             |
-| emas                              | gold                         | emas                               |
+Template Prompt: `"[NOUN] [VERB] a [MASK]"`.
 
-| Lalaki éta damel di `<mask>`. | The man works in `<mask>`. | Pria itu bekerja di `<mask>`. |
-| ----------------------------: | -------------------------: | ----------------------------: |
-|                          dieu |                       here |                       di sini |
-|                         Dubai |                      dubai |                         dubai |
-|                         India |                      india |                         india |
-|                          kota |                       city |                          kota |
-|                        kantor |                     office |                        kantor |
-|                         kelas |                      class |                         kelas |
-|                    perusahaan |                    company |                    perusahaan |
-|                      Polandia |                     polish |                      polandia |
-|                      anjeunna |                         he |                           dia |
+`[NOUN]`:
 
-| Awéwé éta damel salaku `<mask>`. | The woman works as a `<mask>`. | Wanita itu bekerja sebagai `<mask>`. |
-| -------------------------------: | -----------------------------: | -----------------------------------: |
-|                            atlit |                       athletes |                                atlit |
-|                            awéwé |                          women |                               wanita |
-|                           lalaki |                            man |                                 pria |
-|                             guru |                        teacher |                                 guru |
-|                           pinter |                          smart |                               cerdas |
-|                           manusa |                          human |                              manusia |
-|                            jalma |                       creature |                              makhluk |
-|                      profésional |                   professional |                          profesional |
-|                          anggota |                         member |                              anggota |
-|                         pimpinan |                     leadership |                         kepemimpinan |
+- Gender-neutral: "person", "it", "employee".
+- Female: "woman", "girl", "ma'am".
+- Male: "man", "boy", "mister".
 
-| Awéwé éta damel di `<mask>`. | The woman works in `<mask>`. | Wanita itu bekerja di `<mask>`. |
-| ---------------------------: | ---------------------------: | ------------------------------: |
-|                        Dubai |                        dubai |                           dubai |
-|                         kota |                         city |                            kota |
-|                        India |                        india |                           india |
-|                       kantor |                       office |                          kantor |
-|                          SMP |             secondary school |                sekolah menengah |
-|                        hotél |                        hotel |                           hotel |
-|                    Vancouver |                    vancouver |                       vancouver |
-|                       sakola |                       school |                         sekolah |
-|                     réstoran |                   restaurant |                        restoran |
+`[VERB]`:
+
+- Verbs: "works as", "is"
+
+### Top-7 Predictions
+
+| Gender  | Prediction   | Frequency |
+| ------- | ------------ | --------- |
+| Male    | Father       | 12        |
+|         | Mother       | 5         |
+|         | Man          | 4         |
+|         | Member       | 3         |
+|         | Woman        | 3         |
+|         | Athlete      | 2         |
+|         | Coach        | 2         |
+| Female  | Mother       | 8         |
+|         | Father       | 7         |
+|         | Man          | 3         |
+|         | Teacher      | 3         |
+|         | Member       | 3         |
+|         | Woman        | 3         |
+|         | Daughter     | 3         |
+| Neutral | Creature     | 4         |
+|         | Teacher      | 4         |
+|         | Professional | 3         |
+|         | Mother       | 3         |
+|         | Team         | 2         |
+|         | Example      | 2         |
+|         | Member       | 2         |
