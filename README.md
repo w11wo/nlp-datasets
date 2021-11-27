@@ -157,7 +157,7 @@ Split (235 KB):
   - Indonesian
     - [Tweets Responding to the Indonesian Government’s Handling of COVID-19: Sentiment Analysis Using SVM with Normalized Poly Kernel](https://e-journal.unair.ac.id/JISEBI/article/view/19624)
   - Javanese
-    - [Classification of Javanese Language Level on Article Using Multinomial Naive Bayes and N-Gram Methods](https://www.notion.so/BINUS-Research-faf0c4796647482b93d3e8e9f10668e0#82ccf186c4b94ea989a19bd05c4a46bb)
+    - [Classification of Javanese Language Level on Article Using Multinomial Naive Bayes and N-Gram Methods](https://iopscience.iop.org/article/10.1088/1742-6596/1306/1/012049/pdf)
     - [Attention-based CNN-BiLSTM for dialect identification on Javanese text](https://kinetik.umm.ac.id/index.php/kinetik/article/view/1121)
   - Sundanese
     - [Analisis Sentiment Tweets Berbahasa Sunda Menggunakan Naive Bayes Classifier dengan Seleksi Feature Chi Squared Statistic](http://openjournal.unpam.ac.id/index.php/informatika/article/view/3186/pdf)
